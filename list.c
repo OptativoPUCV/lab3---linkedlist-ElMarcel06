@@ -49,7 +49,7 @@ void * firstList(List * list) {
 void * nextList(List * list) {
   while(list->current->next != NULL){
     list->current = list->current->next;
-    
+    return list;
   }
   
 }
