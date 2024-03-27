@@ -52,6 +52,7 @@ void * nextList(List * list) {
   }
   else{
     list->current = list->current->next;
+    return list;
   }
   
   
