@@ -314,3 +314,9 @@ list.c:80:6: note: declared here
 cc1: all warnings being treated as errors
 Compilation failed
 df15a43
+Wed 27 Mar 2024 08:28:39 PM UTC: 
+ list.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+ tests:  9|3
+total_score: 35/70
+3f75b31
