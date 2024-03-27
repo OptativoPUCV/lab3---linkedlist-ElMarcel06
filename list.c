@@ -62,9 +62,9 @@ void * lastList(List * list) {
     list->current = list->tail;
   }
   if(list->current == NULL){
-    return list->tail->data;
+    return NULL;
   }
-  return NULL;
+  return list->tail->data;
 } 
   
 
